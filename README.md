@@ -1,4 +1,4 @@
-# 📚 Curso de Programação em C - Turma 2025
+# 📚 Curso de Programação em C 
 
 Bem-vindo ao repositório oficial do nosso curso de **Programação em C**.
 Aqui você encontrará as pastas das atividades e poderá enviar seus arquivos diretamente pelo **GitHub Desktop**.
