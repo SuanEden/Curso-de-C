@@ -25,7 +25,7 @@ Crie um programa que solicite o nome (char array), idade (int) e peso (float) do
 ```
 Nome: João
 Idade: 30 anos
-Peso: 75.5 kg
+Peso: 75.5 kg 
 ```
 
 ---
