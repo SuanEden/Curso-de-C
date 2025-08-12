@@ -97,7 +97,7 @@ A função `main()` apenas orquestra a chamada dessas funções.
 
 ---
 
-### 📊 10. Média das Notas
+### 📊 3. Média das Notas
 Permita que o usuário insira as notas de **5 alunos** (use um array `float[]`). O programa deve calcular:
 
 - A média da turma
