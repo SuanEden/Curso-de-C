@@ -74,7 +74,7 @@ Crie um programa que exiba a tabuada de um número informado pelo usuário, de 1
 
 ## 🎯 Desafios Intermediários
 
-### 🎲 7. Jogo de Adivinhação
+### 🎲 1. Jogo de Adivinhação
 Desenvolva um jogo simples onde o usuário tenta adivinhar um número "secreto".
 
 📌 **Regras:**
@@ -86,7 +86,7 @@ Desenvolva um jogo simples onde o usuário tenta adivinhar um número "secreto".
 
 ---
 
-### ⚙️ 8. Refatorando a Calculadora de IMC com Funções
+### ⚙️ 2. Refatorando a Calculadora de IMC com Funções
 Reescreva a Calculadora de IMC utilizando funções:
 
 - `float calcularIMC(float peso, float altura);`
@@ -97,7 +97,7 @@ A função `main()` apenas orquestra a chamada dessas funções.
 
 ---
 
-### 📊 9. Média das Notas
+### 📊 10. Média das Notas
 Permita que o usuário insira as notas de **5 alunos** (use um array `float[]`). O programa deve calcular:
 
 - A média da turma
@@ -107,7 +107,7 @@ Permita que o usuário insira as notas de **5 alunos** (use um array `float[]`).
 
 ## 💡 Desafio Avançado
 
-### 🗂️ 10. Sistema Básico de Gerenciamento de Notas
+### 🗂️ 1. Sistema Básico de Gerenciamento de Notas
 Simule um sistema simples para gerenciar as notas de **3 alunos em 4 provas**.
 
 Utilize uma matriz (`float notas[3][4]`) ou múltiplos arrays e crie funções para:
