@@ -1,142 +1,93 @@
-# 📚 Curso de Programação em C
+## 📚 Repositório: Curso de Programação em C
 
-Bem-vindo ao repositório oficial do **Curso de Programação em C**!  
-Aqui você encontrará as **pastas das atividades** e poderá enviar seus arquivos usando o **VS Code** ou o **GitHub Desktop**.
+> Repositório colaborativo com atividades práticas para aprendizado progressivo da linguagem C.
 
 ---
 
-## 🗂️ Organização do Repositório
+## 🗂 Estrutura do Repositório
 
-- Cada **atividade** tem sua própria pasta.
-- Cada aluno deve colocar seu arquivo `.c` na pasta correta, **usando seu nome no arquivo**.
+O repositório está organizado da seguinte forma:
 
-**Exemplo de estrutura:**
-
+```
 atividades/
 ├── atividade1/
-│ ├── joao.c
-│ ├── maria.c
-│ └── ...
+│   ├── joao.c
+│   ├── maria.c
+│   └── ...
 ├── atividade2/
-│ └── ...
+│   └── ...
+├── atividade3/
+│   └── ...
 └── ...
+```
 
-yaml
-Copiar
-Editar
-
----
-
-## 📝 Lista de Atividades
-
-| Pasta       | Descrição                                    |
-|-------------|----------------------------------------------|
-| atividade1  | Personalizando o "Olá, Mundo!"                |
-| atividade2  | Lendo Nome, Idade e Peso                      |
-| atividade3  | Calculando o Total da Compra                   |
-| atividade4  | Calculadora de IMC (Índice de Massa Corporal)|
-| atividade5  | Classificação por Idade                        |
-| atividade6  | Tabuada com Laço for                           |
-| atividade7  | Jogo de Adivinhação                            |
-| atividade8  | Refatorando a Calculadora de IMC com Funções  |
-| atividade9  | Média das Notas                               |
-| atividade10 | Sistema Básico de Gerenciamento de Notas      |
+Cada pasta corresponde a uma atividade específica. Dentro de cada pasta, cada aluno deve colocar seu arquivo `.c` com seu nome como identificador.
 
 ---
 
-## 🚀 Como Enviar sua Atividade
+## 📋 Lista de Atividades
 
-### 💻 Usando o **VS Code**
+| Pasta           | Descrição                                           |
+| --------------- | --------------------------------------------------- |
+| **atividade1**  | Personalizando o clássico `Olá, Mundo!`             |
+| **atividade2**  | Leitura de Nome, Idade e Peso                       |
+| **atividade3**  | Calculando o Total da Compra                        |
+| **atividade4**  | Calculadora de IMC (Índice de Massa Corporal)       |
+| **atividade5**  | Classificação por Idade com estruturas condicionais |
+| **atividade6**  | Tabuada usando laço `for`                           |
+| **atividade7**  | Jogo de Adivinhação                                 |
+| **atividade8**  | Refatoração da Calculadora de IMC com funções       |
+| **atividade9**  | Cálculo da Média das Notas                          |
+| **atividade10** | Sistema Básico de Gerenciamento de Notas            |
 
-1️⃣ **Abrir o projeto no VS Code**  
-- Vá em `File > Open Folder...` e selecione a pasta do repositório.
+---
 
-2️⃣ **Adicionar seu arquivo**  
-- Dentro do VS Code, abra `atividades` e a pasta da atividade correspondente.  
-- Coloque seu arquivo `.c` com seu nome, por exemplo:  
-atividades/atividade1/joao.c
+## 🛠 Como Contribuir
 
-markdown
-Copiar
-Editar
+1. **Selecione a pasta da atividade correspondente.**
+2. **Crie um arquivo `.c` com seu nome (ex: `joao.c`).**
+3. **Implemente a solução da atividade.**
+4. **Faça commit e envie as alterações para o repositório.**
 
-3️⃣ **Fazer o commit**  
-- Clique no ícone **Source Control** (ícone de ramificação) no menu lateral.  
-- No campo de mensagem, escreva:  
-Adiciona atividade1 do Joao
+---
 
-markdown
-Copiar
-Editar
-- Clique em **✓ Commit**.
+## 💡 Dicas para Uso do VSCode
 
-4️⃣ **Enviar para o GitHub**  
-- No canto inferior esquerdo, clique em **Sync Changes** ou **Push**.
+* **Abrir o projeto:**
 
-> 💡 Caso seja a primeira vez usando Git, configure seu usuário e email no terminal:  
-```bash
-git config --global user.name "Seu Nome"
-git config --global user.email "seuemail@exemplo.com"
-📦 Usando o GitHub Desktop
-1️⃣ Clonar o repositório
+  ```bash
+  code .
+  ```
 
-Abra o GitHub Desktop.
+* **Fazer commit:**
 
-Vá em File > Clone repository....
+  1. Abra o painel de controle de versão no VSCode.
+  2. Selecione os arquivos modificados.
+  3. Escreva uma mensagem de commit clara.
+  4. Clique em "✔️ Commit" e depois em "Push" para enviar as alterações.
 
-Cole o link do repositório e escolha uma pasta no seu computador.
+---
 
-2️⃣ Adicionar seu arquivo
+## 📚 Exercícios Complementares
 
-Entre na pasta do projeto no seu computador.
+Para aprofundar seus conhecimentos, acesse a lista de exercícios do IME-USP:
+🔗 [https://www.ime.usp.br/\~macmulti/exercicios/](https://www.ime.usp.br/~macmulti/exercicios/)
 
-Coloque seu arquivo .c na pasta da atividade correta, por exemplo:
+---
 
-bash
-Copiar
-Editar
-atividades/atividade1/joao.c
-3️⃣ Fazer o commit
+## ⚠️ Regras Importantes
 
-Volte ao GitHub Desktop.
+* **Não modifique ou apague arquivos de outros alunos.**
+* **Sempre use seu nome no arquivo da atividade.**
+* **Mantenha o código organizado e com comentários explicativos.**
 
-No campo Summary, escreva algo como:
+---
 
-arduino
-Copiar
-Editar
-Adiciona atividade1 do Joao
-Clique em Commit to main.
+## 📞 Suporte
 
-4️⃣ Enviar para o GitHub
+* [**Grupo da turma**](https://chat.whatsapp.com/HcaRX9Y0yNn3KXrqA3wz2r?mode=ac_t)
+* **GitHub Issues:** Abra uma issue aqui no repositório para dúvidas ou sugestões.
 
-Clique em Push origin.
+---
 
-⚠️ Regras Importantes
-✅ Não apagar ou modificar arquivos de outros alunos.
-
-✅ Sempre usar seu nome no arquivo.
-
-✅ Manter o código organizado e, se possível, com comentários.
-
-
-📚 Lista de Exercícios Complementares
-Para aprofundar seus conhecimentos, acesse a Lista de Exercícios Complementares do IME-USP. Nela, você encontrará exercícios sobre:
-
-Exercícios com Inteiros
-
-Exercícios com Repetições Encaixadas
-
-Exercícios com Reais
-
-Exercícios com Funções
-
-Exercícios com Vetores
-
-Exercícios com Matrizes
-
-Exercícios Complementares
-
-❓ Suporte
-📢 Pergunte no grupo da turma ou
-📌 Abra um issue aqui no GitHub
+Obrigado por contribuir para o aprendizado coletivo! Bons estudos! 🎓
