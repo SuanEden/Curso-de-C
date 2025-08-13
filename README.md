@@ -1,80 +1,142 @@
-# 📚 Curso de Programação em C 
+# 📚 Curso de Programação em C
 
-Bem-vindo ao repositório oficial do nosso curso de **Programação em C**.
-Aqui você encontrará as pastas das atividades e poderá enviar seus arquivos diretamente pelo **GitHub Desktop**.
+Bem-vindo ao repositório oficial do **Curso de Programação em C**!  
+Aqui você encontrará as **pastas das atividades** e poderá enviar seus arquivos usando o **VS Code** ou o **GitHub Desktop**.
 
 ---
 
-## 🗂️ Como funciona
+## 🗂️ Organização do Repositório
 
-✅ Cada **atividade** tem a sua pasta.
-✅ Cada aluno deve colocar seu arquivo `.c` dentro da pasta da atividade, usando o **próprio nome no arquivo**.
+- Cada **atividade** tem sua própria pasta.
+- Cada aluno deve colocar seu arquivo `.c` na pasta correta, **usando seu nome no arquivo**.
 
 **Exemplo de estrutura:**
 
-```
 atividades/
 ├── atividade1/
-│   ├── joao.c
-│   ├── maria.c
-│   └── ...
+│ ├── joao.c
+│ ├── maria.c
+│ └── ...
 ├── atividade2/
-│   └── ...
+│ └── ...
 └── ...
-```
+
+yaml
+Copiar
+Editar
 
 ---
 
-## 📝 Lista de atividades
+## 📝 Lista de Atividades
 
-| Pasta      | Descrição                                  |
-| ---------- | ------------------------------------------ |
-| atividade1 | Declaração de variáveis e entrada de dados |
-| atividade2 | Estruturas de decisão (`if`, `switch`)     |
-| atividade3 | Laços de repetição (`for`, `while`)        |
-| atividade4 | Funções                                    |
-| atividade5 | Vetores e matrizes                         |
-| atividade6 | Ponteiros básicos                          |
-| atividade7 | Structs                                    |
+| Pasta       | Descrição                                    |
+|-------------|----------------------------------------------|
+| atividade1  | Personalizando o "Olá, Mundo!"                |
+| atividade2  | Lendo Nome, Idade e Peso                      |
+| atividade3  | Calculando o Total da Compra                   |
+| atividade4  | Calculadora de IMC (Índice de Massa Corporal)|
+| atividade5  | Classificação por Idade                        |
+| atividade6  | Tabuada com Laço for                           |
+| atividade7  | Jogo de Adivinhação                            |
+| atividade8  | Refatorando a Calculadora de IMC com Funções  |
+| atividade9  | Média das Notas                               |
+| atividade10 | Sistema Básico de Gerenciamento de Notas      |
 
 ---
 
-## 🚀 Como enviar suas atividades pelo GitHub Desktop
+## 🚀 Como Enviar sua Atividade
 
-1. Abra o **GitHub Desktop** e clone o repositório:
+### 💻 Usando o **VS Code**
 
-   * Clique em `File > Clone repository...`
-   * Cole o link do repositório e escolha uma pasta no seu computador.
+1️⃣ **Abrir o projeto no VS Code**  
+- Vá em `File > Open Folder...` e selecione a pasta do repositório.
 
-2. Entre na pasta do projeto no seu computador.
-
-3. Coloque seu arquivo `.c` na pasta da atividade correspondente, sempre usando **seu nome no arquivo**.
-   Por exemplo:
-
-```
+2️⃣ **Adicionar seu arquivo**  
+- Dentro do VS Code, abra `atividades` e a pasta da atividade correspondente.  
+- Coloque seu arquivo `.c` com seu nome, por exemplo:  
 atividades/atividade1/joao.c
-```
 
-4. Volte ao **GitHub Desktop**, você verá as mudanças.
+markdown
+Copiar
+Editar
 
-5. No campo **Summary**, escreva uma mensagem clara (ex: `Adiciona atividade1 do Joao`) e clique em **Commit to main**.
+3️⃣ **Fazer o commit**  
+- Clique no ícone **Source Control** (ícone de ramificação) no menu lateral.  
+- No campo de mensagem, escreva:  
+Adiciona atividade1 do Joao
 
-6. Clique em **Push origin** para enviar seu commit ao GitHub.
+markdown
+Copiar
+Editar
+- Clique em **✓ Commit**.
 
----
+4️⃣ **Enviar para o GitHub**  
+- No canto inferior esquerdo, clique em **Sync Changes** ou **Push**.
 
-## ⚠️ Regras importantes
+> 💡 Caso seja a primeira vez usando Git, configure seu usuário e email no terminal:  
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+📦 Usando o GitHub Desktop
+1️⃣ Clonar o repositório
 
-✅ Não apague nem modifique arquivos dos colegas.
-✅ Sempre use seu nome no arquivo para que fique fácil identificar.
-✅ Mantenha o código organizado e, se possível, com comentários explicando.
+Abra o GitHub Desktop.
 
----
+Vá em File > Clone repository....
 
-## ❓ Dúvidas?
+Cole o link do repositório e escolha uma pasta no seu computador.
 
-Fale comigo pelo grupo da turma ou abra um **issue** aqui no GitHub.
+2️⃣ Adicionar seu arquivo
 
-Bons estudos e boa programação! 🚀
+Entre na pasta do projeto no seu computador.
 
----
+Coloque seu arquivo .c na pasta da atividade correta, por exemplo:
+
+bash
+Copiar
+Editar
+atividades/atividade1/joao.c
+3️⃣ Fazer o commit
+
+Volte ao GitHub Desktop.
+
+No campo Summary, escreva algo como:
+
+arduino
+Copiar
+Editar
+Adiciona atividade1 do Joao
+Clique em Commit to main.
+
+4️⃣ Enviar para o GitHub
+
+Clique em Push origin.
+
+⚠️ Regras Importantes
+✅ Não apagar ou modificar arquivos de outros alunos.
+
+✅ Sempre usar seu nome no arquivo.
+
+✅ Manter o código organizado e, se possível, com comentários.
+
+
+📚 Lista de Exercícios Complementares
+Para aprofundar seus conhecimentos, acesse a Lista de Exercícios Complementares do IME-USP. Nela, você encontrará exercícios sobre:
+
+Exercícios com Inteiros
+
+Exercícios com Repetições Encaixadas
+
+Exercícios com Reais
+
+Exercícios com Funções
+
+Exercícios com Vetores
+
+Exercícios com Matrizes
+
+Exercícios Complementares
+
+❓ Suporte
+📢 Pergunte no grupo da turma ou
+📌 Abra um issue aqui no GitHub
