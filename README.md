@@ -70,8 +70,7 @@ Cada pasta corresponde a uma atividade específica. Dentro de cada pasta, cada a
 
 ## 📚 Exercícios Complementares
 
-Para aprofundar seus conhecimentos, acesse a lista de exercícios do IME-USP:
-🔗 [https://www.ime.usp.br/\~macmulti/exercicios/](https://www.ime.usp.br/~macmulti/exercicios/)
+Para aprofundar seus conhecimentos, acesse a [lista de exercícios do IME-USP](https://www.ime.usp.br/~macmulti/exercicios/)
 
 ---
 
