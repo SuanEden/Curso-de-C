@@ -1,5 +1,3 @@
----
-
 ## 💡 Desafio Avançado
 
 ### 🗂️ 1. Sistema Básico de Gerenciamento de Notas
