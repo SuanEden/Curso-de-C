@@ -1,6 +1,6 @@
 ## 💡 Desafio Avançado
 
-### 🗂️ 1. Sistema Básico de Gerenciamento de Notas
+### [🗂️ 1. Sistema Básico de Gerenciamento de Notas](https://github.com/SuanEden/Curso-de-C/tree/main/desafio_avan%C3%A7ado/1.Sistema_Gerenciamento)
 Simule um sistema simples para gerenciar as notas de **3 alunos em 4 provas**.
 
 Utilize uma matriz (`float notas[3][4]`) ou múltiplos arrays e crie funções para:
