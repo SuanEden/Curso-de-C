@@ -1,12 +1,6 @@
-# 💻 Atividades Práticas - Introdução à Programação em C
-
-Este repositório contém uma série de atividades práticas e desafios desenvolvidos para auxiliar no aprendizado da linguagem de programação C. Os exercícios abordam conceitos fundamentais como variáveis, entrada e saída de dados, operadores, condicionais, laços, arrays e funções.
-
----
-
 ## ✅ Atividades Básicas
 
-### 📝 1. Personalizando o "Olá, Mundo!"
+### [📝 1. Personalizando o "Olá, Mundo!"](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/1.Personalizando_Ola.Mundo)
 Modifique o clássico programa "Olá, Mundo!" para exibir uma mensagem personalizada:
 
 📌 **Exemplo de saída esperada:**
@@ -18,7 +12,7 @@ Olá, João! Estou começando a programar em C!
 
 ---
 
-### 🧑‍💻 2. Lendo Nome, Idade e Peso
+### [🧑‍💻 2. Lendo Nome, Idade e Peso](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/2.Lendo_Nome_Idade_Peso)
 Crie um programa que solicite o nome (char array), idade (int) e peso (float) do usuário e exiba os dados formatados.
 
 📌 **Exemplo de saída:**
@@ -30,14 +24,14 @@ Peso: 75.5 kg
 
 ---
 
-### 🛒 3. Calculando o Total da Compra
+### [🛒 3. Calculando o Total da Compra](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/3.Calculando_Total_Compra)
 Desenvolva um programa que leia o preço de um produto e a quantidade comprada, calcule o total e exiba o resultado.
 
 📌 **Desafio Extra:** Solicite também o valor pago e calcule o troco.
 
 ---
 
-### 🧮 4. Calculadora de IMC (Índice de Massa Corporal)
+### [🧮 4. Calculadora de IMC (Índice de Massa Corporal)](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/4.Calculadora_IMC)
 Crie um programa que solicite a **altura** (em metros) e o **peso** (em kg) do usuário, e calcule o IMC utilizando a fórmula:
 
 ```
@@ -51,7 +45,7 @@ Seu IMC é: 22.50
 
 ---
 
-### 👶👵 5. Classificação por Idade
+### [👶👵 5. Classificação por Idade](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/5.Classifica%C3%A7%C3%A3o_Idade)
 Solicite a idade do usuário e informe em qual faixa ele se encontra:
 
 - Criança (0-12 anos)
@@ -61,7 +55,7 @@ Solicite a idade do usuário e informe em qual faixa ele se encontra:
 
 ---
 
-### 🔢 6. Tabuada com Laço `for`
+### [🔢 6. Tabuada com Laço `for`](https://github.com/SuanEden/Curso-de-C/tree/main/atividades/6.Tabuada_La%C3%A7o)
 Crie um programa que exiba a tabuada de um número informado pelo usuário, de 1 a 10, usando `for`.
 
 📌 **Desafio Extra:** Crie um menu com `switch-case` permitindo ao usuário escolher o tipo de tabuada:
