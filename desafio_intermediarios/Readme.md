@@ -1,6 +1,6 @@
-[## 🎯 Desafios Intermediários
-](https://github.com/SuanEden/Curso-de-C/blob/main/desafio_intermediarios/Resultado_Desafio1.c)
-### 🎲 1. Jogo de Adivinhação
+## 🎯 Desafios Intermediários
+
+### [🎲 1. Jogo de Adivinhação](https://github.com/SuanEden/Curso-de-C/tree/main/desafio_intermediarios/1.Jogo_Adivinha%C3%A7%C3%A3o)
 Desenvolva um jogo simples onde o usuário tenta adivinhar um número "secreto".
 
 📌 **Regras:**
@@ -12,7 +12,7 @@ Desenvolva um jogo simples onde o usuário tenta adivinhar um número "secreto".
 
 ---
 
-[### ⚙️ 2. Refatorando a Calculadora de IMC com Funções](https://github.com/SuanEden/Curso-de-C/blob/main/desafio_intermediarios/Resultado_Desafio2.c)
+### [⚙️ 2. Refatorando a Calculadora de IMC com Funções](https://github.com/SuanEden/Curso-de-C/tree/main/desafio_intermediarios/2.Refatorando_Calc_IMC)
 Reescreva a Calculadora de IMC utilizando funções:
 
 - `float calcularIMC(float peso, float altura);`
@@ -23,7 +23,7 @@ A função `main()` apenas orquestra a chamada dessas funções.
 
 ---
 
-[### 📊 3. Média das Notas](https://github.com/SuanEden/Curso-de-C/blob/main/desafio_intermediarios/Resultado_Desafio3.c)
+### [📊 3. Média das Notas](https://github.com/SuanEden/Curso-de-C/tree/main/desafio_intermediarios/3.Media_Notas)
 Permita que o usuário insira as notas de **5 alunos** (use um array `float[]`). O programa deve calcular:
 
 - A média da turma
