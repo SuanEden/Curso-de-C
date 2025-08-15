@@ -19,12 +19,8 @@ void coletaNotas(float notas[ALUNOS][PROVAS])
     }
     return notas[ALUNOS][PROVAS];
 }
-
-int main(int argc, char const *argv[])
-{
-    float notas[ALUNOS][PROVAS];
-    coletaNotas(notas);
-    int i , j, n;
+void imprimiNotas(float notas[ALUNOS][PROVAS]){
+int i , j, n;
     for (i = 0; i < ALUNOS; i++)
     {
        printf("\nAluno : %d \n", i+1);
@@ -36,8 +32,13 @@ int main(int argc, char const *argv[])
         printf("\n");
         n=0;
     }
-    
-    
-    return 0;
+
+}
+int main(int argc, char const *argv[])
+{
+    float notas[ALUNOS][PROVAS];
+    coletaNotas(notas);
+    imprimiNotas(notas);
+   return 0;
 }
 
