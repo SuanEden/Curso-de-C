@@ -2,6 +2,7 @@
 
 float obterPeso (){
     float peso;
+    
         printf("Qual o seu peso? ");
         scanf("%f", &peso);
         return peso;
