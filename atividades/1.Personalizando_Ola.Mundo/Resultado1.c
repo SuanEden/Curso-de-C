@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[]){
-    ///Coloque o seu nome
-    printf("Ola Eden, estou começando a programar em C!");
+// Programa inicial em C
+int main(int argc, char const *argv[]) {
+    // Mostra uma mensagem na tela
+    printf("Ola Eden, estou comecando a programar em C!");
     
-    return 0;
+    return 0; // encerra o programa
 }
-
-
