@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]){
         scanf("%f", &altura);
     printf("\nMe infome a seu peso: ");
         scanf("%f", &peso);
-    printf("\nO seu IMC é: %.2f", peso/(altura*altura));
+    printf("\nO seu IMC é: %.2f", peso/(altura*altura)); ///Calcula o IMC quando imprimir
     
     return 0;
 }
