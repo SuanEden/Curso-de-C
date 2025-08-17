@@ -10,7 +10,7 @@ void preencherNotas(float notas[ALUNOS][PROVAS], int i, int j){
       scanf("%f", &notas[i][j]);
     }
     printf("\n");
-    }
+  }
 }
 
 float calcularMediaAluno(float notas[ALUNOS][PROVAS], float media[ALUNOS], int i, int j){
@@ -25,6 +25,7 @@ float calcularMediaAluno(float notas[ALUNOS][PROVAS], float media[ALUNOS], int i
     media_t+=media[i];
   }
   media_t /= ALUNOS;
+
   printf("\n \n");
 
   return media_t;
@@ -45,8 +46,7 @@ void exibirResultados(float notas[ALUNOS][PROVAS], float media[ALUNOS], float me
   printf("\nMedia da sala e: %f", media_t);
 }
   
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
   int i, j;
   float media[ALUNOS];
   float notas[ALUNOS][PROVAS];
