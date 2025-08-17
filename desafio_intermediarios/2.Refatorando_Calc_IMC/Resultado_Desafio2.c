@@ -1,35 +1,32 @@
 #include <stdio.h>
 
-float obterPeso (){
+// Pede o peso do usuário
+float obterPeso() {
     float peso;
-
-    printf("Qual o seu peso? ");
+    printf("Qual o seu peso (kg)? ");
     scanf("%f", &peso);
- 
     return peso;
 }
 
-float obterAltura(){
+// Pede a altura do usuário
+float obterAltura() {
     float altura;
-
-    printf("Qual a sua altura?");
+    printf("Qual a sua altura (m)? ");
     scanf("%f", &altura);
-    
     return altura;
 }
 
-float calcularIMC(float peso, float altura){
-    return peso/(altura*altura);
+// Calcula o IMC
+float calcularIMC(float peso, float altura) {
+    return peso / (altura * altura);
 }
-
- int main(int argc, char const *argv[])
- {
+/// Roda tudo
+int main(void) {
     float peso = obterPeso();
     float altura = obterAltura();
-    float imc = calcularIMC(peso,altura);
+    float imc = calcularIMC(peso, altura);
 
-    printf("%.2f %.2f %.2f",peso,altura,imc);
-    
+    printf("Peso: %.2f kg\nAltura: %.2f m\nIMC: %.2f\n", peso, altura, imc);
+
     return 0;
- }
- 
+}
