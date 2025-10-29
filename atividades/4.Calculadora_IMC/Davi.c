@@ -12,7 +12,16 @@ int main() {
 
     imc = peso / (altura * altura);
 
-    printf("Seu IMC é: %.2f\n", imc);
+    printf("Seu IMC e: %.2f\n", imc);
 
-return 0;
+    if (imc <= 17) {
+        printf("Abaixo do peso\n");
+    } else if (imc >= 25 && imc <= 30) {
+        printf("Peso normal\n");
+    } else if (imc >= 30) {
+        printf("Sobrepeso\n");
+    }
+
+    return 0;
+
 }
