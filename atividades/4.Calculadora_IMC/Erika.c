@@ -6,10 +6,6 @@ int main(){
     
     printf("Digite a sua altura: ");
     scanf("%f",&altura);
-    while(altura<0 || altura>2.5){
-        printf("Altua invalida. Digite novamente: ");
-        scanf("%f", &altura);
-    }
     
     printf("\nDigite seu peso: ");
     scanf("%f", &peso);
@@ -17,5 +13,11 @@ int main(){
     imc = peso / ( altura * altura);
 
     printf("Seu IMC é %f",imc);
-
+    if( imc < 17 ){
+        printf("Classificação do IMC: Magreza");
+    }if else( imc > 30 ){
+        printf("Classificação do IMC: Sobrepeso");
+    }else{
+        printf("Classificação do IMC: Saudável");
+    }
 }
