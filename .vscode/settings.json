@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "EDEN.C": "cpp"
     }
 }
